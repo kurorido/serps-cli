@@ -24,16 +24,12 @@
     "bin/serps"
   ],
 
-
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-
   "require": {
     "php": ">=5.5.9",
     "symfony/console": "^3.3",
 
-    "serps/core": "~0.3.0",
-    "serps/search-engine-google": "~0.3.0|~0.4.0",
+    "serps/core": "dev-master#66d7648fa018df249f99cea393c14a50d6a62660",
+    "serps/search-engine-google": "dev-master#9e6dc4e6e6e15e2dd09cecd9669638a75d057e86",
 
     "serps/http-client-phantomjs": "~0.2.0",
     "serps/http-client-curl": "~0.2.0",
@@ -47,5 +43,16 @@
   "scripts": {
       "csfix": "yes 2>/dev/null | test/bin/phpcbf.bash",
       "cscheck": "test/bin/phpcs.bash emacs"
-  }
+  },
+  
+   "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/kurorido/core.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/kurorido/search-engine-google"
+    }
+  ]
 }
