@@ -32,7 +32,7 @@
     "serps/search-engine-google": "dev-master#9e6dc4e6e6e15e2dd09cecd9669638a75d057e86",
 
     "serps/http-client-phantomjs": "~0.2.0",
-    "serps/http-client-curl": "~0.2.0",
+    "serps/http-client-curl": "dev-master#d926a6ebd38e14d0ca8cb9e41e8fa9a025986f8e",
     "zendframework/zend-diactoros": "^1.4"
   },
 
@@ -53,6 +53,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/kurorido/search-engine-google"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/kurorido/http-client-curl.git"
     }
   ]
 }
